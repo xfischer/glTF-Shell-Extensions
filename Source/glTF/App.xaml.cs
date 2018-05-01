@@ -22,6 +22,11 @@ namespace glTF
                     window.ShowDialog();
                     break;
                 }
+                case "NormalizeAnimationTimes":
+                {
+                    Animation.NormalizeTimes(e.Args[1]);
+                    break;
+                }
             }
 
             this.Shutdown();
