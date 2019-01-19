@@ -8,6 +8,9 @@ using System.Runtime.InteropServices;
 
 namespace glTF
 {
+    /// <summary>
+    /// Source : https://github.com/bghgary/glTF-Shell-Extensions/tree/59e2666cd023617757256d247ef79ca6c5066fc7
+    /// </summary>
     internal class Packer
     {
         public static void Pack(string path)
